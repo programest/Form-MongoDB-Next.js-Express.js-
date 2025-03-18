@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv"); 
-const User = require("./src/app/models/users/user"); 
+const User = require("./models/users/user"); 
 
 dotenv.config(); // Загружаем переменные окружения
 
